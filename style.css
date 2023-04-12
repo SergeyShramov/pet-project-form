@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("images/background.jpeg");
+}
+form {
+    margin: auto;
+    max-width: 300px;
+    margin-top: 100px;
+    background-color: bisque;
+    box-shadow: 0px 0px 10px 10px black;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Al Nile";
+}
+form:hover {
+    border: black 2px solid;
+    transition: .3s;
+}
+.form-group {
+    margin: 30px auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: flex;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-size: 0.7rem;
+}
+
+.invalid {
+    border: red 1px solid;
+}
+
+.valid {
+    border: green 1px solid;
+}
+#submit {
+    width: 70px;
+    padding: 5px;
+    border: none;
+}
+#submit:hover {
+    background-color: green;
+    transition: .2s;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: bisque;
+}
+#signup {
+    width: 70px;
+    padding: 5px;
+    border: none;
+}
+#signup:hover {
+    background-color: green;
+    transition: .2s;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: bisque;
+}
+.form-group:nth-child(3){
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
